@@ -19,12 +19,14 @@ If you make the script executable [`chmod +x termradio.py`], you can drop the ex
 ./termradio KEXP
 ```
 
+If you store the script somewhere in your `$PATH` (e.g. `$HOME/.local/bin`), you can run `termradio <station>` from anywhere, or execute it as a background process from a launcher.
+
 `termradio` accepts 1 argument, which is either a station name in
-`stations.txt`, or a streaming url. If you intend to use stations repeatedly.
+`stations.txt`, or a streaming url. 
 
 Stations live in a dictionary `stations.txt`, which is
 pre-populated with a few stations I like (KEXP, KCRW, SOMAFM), and can
-be added to by the user (please maintain valid python dict syntax).
+be added to by the user (please maintain valid python dict syntax). Send me pull requests (that double up as music recommendations, for once).
 
 ## media player
 
